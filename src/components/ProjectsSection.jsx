@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Safe Sight",
+    description: 
+      "Utilizes computer vision and Hugging Face models to detect workplace hazards, analyze near-misses, and send real-time alerts to improve safety compliance.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Edge Ai", "Docker", "React", "FastAPI"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/JoeyBobDev/SafeSight",
   },
   {
     id: 2,
-    title: "RTX Capstone Project",
+    title: "RTX AST Project",
     description:
-      "NDA",
+      "Awarded 2nd place in the 24-25 CSU CS Innovation Expo for this machine learning data processing tool. Runs fully locally, enjoy a video demo below.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Auto Classification", "Deep Learning"],
+    demoUrl: "https://www.youtube.com/watch?v=9-c0zTYUFcQ",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Ultimate Gorilla Draft",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "ChatGPT powered classifying app, draft a team of celebrities into squads using wikipedia backed retrieval features and sentiment analysis.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["RAG", "LLM", "pandas", "tkinter"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/JoeyBobDev/GorillaOps",
   },
 ];
 
